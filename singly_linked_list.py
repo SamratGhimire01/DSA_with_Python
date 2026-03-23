@@ -1,3 +1,4 @@
+# First Program 
 class Node:
     def __init__(self,info,next=None):
         self.data = info
@@ -29,7 +30,7 @@ class SinglyLL:
         temp = Node(value)
         if self.head.data == x:
             temp.next = self.head.next
-            sef.head.next = temp
+            self.head.next = temp
             return
         t1= self.head
         while(t1.next != None):
@@ -72,4 +73,3 @@ s.insertAtBeg(11)
 s.insertAtMiddle(55,30)
 s.deletes(30)
 s.printsee()
-    
