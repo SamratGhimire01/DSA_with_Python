@@ -36,7 +36,7 @@ def delete(root,value):
     if root == None:
         return root
     if root.data > value:
-        root.left = delete(root.left,value)
+        root.left = delete(root.left,value)          # this is to find the node if exactly matches the value and then delete it.
     elif root.data < value:
         root.right = delete(root.right,value)
     else:
