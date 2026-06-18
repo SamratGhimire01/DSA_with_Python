@@ -29,3 +29,5 @@ print(s.length())
 print(s.peek())
 print(s.dequeue())
 print(s.dequeue())
+
+#done for today
